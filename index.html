@@ -62,6 +62,13 @@
     ul{margin:0;padding-left:20px}
     li{margin:8px 0}
 
+    /* Contact people list */
+    .people{display:grid;gap:14px}
+    .person{border:1px solid #e5e7eb;border-radius:12px;padding:12px}
+    .person .name{font-weight:700;color:#0f766e}
+    .person .role{font-size:13px;color:#475569}
+    .person a{word-break:break-word}
+
     /* Soft green footer */
     footer{padding:28px 0;background:var(--green-soft);border-top:1px solid #ddf5ec}
     .footer-wrap{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between}
@@ -132,10 +139,30 @@
           <p>Led by <strong>Jessica R. Callaway</strong>, a <strong>QuickBooks ProAdvisor</strong> with 20+ years of experience. We serve Tryon, Spartanburg, Gaffney, and surrounding Upstate communities with confidential, personalized bookkeeping.</p>
           <p><em>“As a QuickBooks ProAdvisor, I am committed to being your go-to bookkeeping partner.”</em></p>
         </div>
+
         <div class="card" id="contact">
           <h2>Contact</h2>
-          <p><strong>JC-Account Keepers</strong><br/>Landrum, SC 28782</p>
-          <p><a href="mailto:jbeancallaway@gmail.com">jbeancallaway@gmail.com</a><br/><a href="tel:+18439337042">(843) 933-7042</a></p>
+
+          <div class="people">
+            <div class="person">
+              <div class="name">Jessica R. Callaway</div>
+              <div class="role">Owner • QuickBooks ProAdvisor</div>
+              <div><strong>Email:</strong> <a href="mailto:jbeancallaway@gmail.com">jbeancallaway@gmail.com</a></div>
+              <div><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/jessica-callaway-06a893389" target="_blank" rel="noopener">www.linkedin.com/in/jessica-callaway-06a893389</a></div>
+            </div>
+
+            <div class="person">
+              <div class="name">Faith Callaway</div>
+              <div class="role">Business Development &amp; Bookkeeping Associate • MBA Candidate (Clemson)</div>
+              <div><strong>Email:</strong> <a href="mailto:Frcallaway0614@gmail.com">Frcallaway0614@gmail.com</a></div>
+              <div><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/faith-callaway-0624aa310/" target="_blank" rel="noopener">www.linkedin.com/in/faith-callaway-0624aa310</a></div>
+            </div>
+          </div>
+
+          <hr style="margin:16px 0;border:0;border-top:1px solid #e5e7eb" />
+
+          <p><strong>General:</strong> JC-Account Keepers • Landrum, SC 28782</p>
+          <p><strong>Phone:</strong> <a href="tel:+18439337042">(843) 933-7042</a></p>
           <a class="cta" href="mailto:jbeancallaway@gmail.com?subject=Consultation%20Request%20-%20JC-Account%20Keepers">Email Us</a>
         </div>
       </div>
